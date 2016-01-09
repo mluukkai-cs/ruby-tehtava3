@@ -1,4 +1,8 @@
 # kirjoita koodi tänne
 def kertoma(x)
-  1
+  val = 1
+  (1..x).each do |n|
+    val *= n
+  end
+  val
 end
